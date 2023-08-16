@@ -105,13 +105,15 @@ html{
     }
     .header .nav{
         position: absolute;
-        top: 99%; left: 0; right: 0;
+        top: 8%; left: 0; right: 0;
         background-color: var(--white);
         border-top: var(--border);
         border-bottom: var(--border);
         padding:1rem 0;
         text-align: center;
-        flex-flow: column;
+        display: flex;
+        /* flex-direction: row; */
+        flex-direction: column;
         clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
         transition: .2s linear;
     }
