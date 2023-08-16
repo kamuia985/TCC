@@ -84,43 +84,6 @@ html{
     cursor: pointer;
     display: none;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* media queries */
 @media (max-width:991px){
     html{
@@ -135,11 +98,11 @@ html{
 @media (max-width:768px){
     #menu-btn{
         display: inline-block;
-        /* transition: .2s linear; */
+        transition: .2s linear;
     }
-    /* #menu-btn.fa-times{
+    #menu-btn.fa-times{
         transform: rotate(180deg);
-    } */
+    }
     .header .nav{
         position: absolute;
         top: 99%; left: 0; right: 0;
@@ -149,15 +112,15 @@ html{
         padding:1rem 0;
         text-align: center;
         flex-flow: column;
-        /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-        transition: .2s linear; */
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: .2s linear;
     }
-    /* .header .nav.active{
+    .header .nav.active{
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-    } */
+    }
     .header .nav a{
         margin: 1rem 0;
-        /* font-size: 2rem; */
+        font-size: 2rem;
     }
 }
 
