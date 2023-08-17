@@ -39,6 +39,10 @@ html{
     scroll-padding-top: 6.5rem;
 }
 
+section{
+    padding: 7rem 2rem;
+}
+
 .link-btn{
     display: inline-block;
     padding: 1rem 3rem;
@@ -84,18 +88,24 @@ html{
     cursor: pointer;
     display: none;
 }
+
 /* media queries */
 @media (max-width:991px){
     html{
         font-size: 55%;
     }
-
     .header .link-btn{
         display: none;
     }
+    section{
+        padding: 5rem 2rem;
+    }    
 }
 
 @media (max-width:768px){
+    section{
+        padding: 3rem 1rem;
+    }    
     #menu-btn{
         display: inline-block;
         transition: .2s linear;
