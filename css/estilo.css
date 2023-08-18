@@ -141,3 +141,7 @@ section{
     color: var(--light-color);
     line-height: 2;
 }
+
+.imgAbout{
+    width: 100%;
+}
