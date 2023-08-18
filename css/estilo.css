@@ -7,7 +7,7 @@
     --light-color: #666;
     --light-bg: #eee;
     --border:.2rem solid rgba(0,0,0,.1);
-    --box-shadow:0 .5rem 1rem rgba(0,0,0.1);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
 *{
@@ -63,6 +63,12 @@ section{
     border-bottom: var(--border);
 }
 
+.header.active{
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
+    border: 0;
+}
+
 .header .logo{
     font-size: 2rem;
     color: var(--black);
@@ -94,4 +100,3 @@ section{
     background-size: cover;
     background-position: center;
 }
-/**/
