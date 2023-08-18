@@ -64,7 +64,8 @@ section{
 }
 
 .header.active{
-    background-color: var(--white);
+    background-color: var(--black);
+    color: var(--white);
     box-shadow: var(--box-shadow);
     border: 0;
 }
