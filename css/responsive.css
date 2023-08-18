@@ -43,10 +43,22 @@
         margin: 1rem 0;
         font-size: 2rem;
     }
+
+    .home{
+        background-position: left;
+    }
+
+    .home .content{
+        width: auto;
+    }
 }
 
 @media (max-width:450px){
     html{
         font-size: 50%;
+    }
+
+    .home .content h3{
+        font-size: 3rem;
     }
 }
