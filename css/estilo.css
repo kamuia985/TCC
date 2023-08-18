@@ -119,3 +119,25 @@ section{
     color: var(--light-color);
     padding: 1rem 0;
 }
+
+.about .row{
+    min-width: 50vh;
+}
+
+.about .content span{
+    font-size: 2rem;
+    color: var(--blue);
+}
+
+.about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+    margin-top: 1rem;
+}
+
+.about .content p{
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: var(--light-color);
+    line-height: 2;
+}
