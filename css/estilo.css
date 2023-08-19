@@ -11,12 +11,12 @@
 
     --primary-color: #edf2fc; /*white*/
     --secondary-color: #212121; /*black*/
-    --color-3: #333; /*light-color*/
+    --color-3: #666; /*light-color*/
 }
 
 .dark-theme{
-    --primary-color: #000106;
-    --secondary-color: #fff;
+    --primary-color: ;/*#000106;*/
+    --secondary-color: ;/*#fff;*/
     --color-3: #666;
 }
 
@@ -203,11 +203,11 @@ hr{
 .services .box-container .box h3{
     font-size: 2rem;
     padding: 1rem 0;
-    color: var(--secondary-color);
+    color: var(--light-color);
 }
 
 .services .box-container .box p{
     font-size: 1.5rem;
-    color: var(--secondary-color);
+    color: var(--light-color);
     line-height: 2;
 }
