@@ -246,6 +246,7 @@ hr{
 .process .box-container .box h3{
     font-size: 2rem;
     color: var(--white);
+    margin: 1rem 0;
 }
 
 .process .box-container .box p{
