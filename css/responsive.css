@@ -28,7 +28,7 @@
     .header .nav{
         position: absolute;
         top: 8%; left: 0; right: 0;
-        background-color: var(--primary-color);
+        background-color: var(--white);
         border-top: var(--border);
         border-bottom: var(--border);
         padding:1rem 0;
