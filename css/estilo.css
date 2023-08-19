@@ -15,7 +15,7 @@
     /* --primary-color: #edf2fc; white
     --secondary-color: #212121; black */
     --color-3: #666; /*light-color*/
-    --color-4: #eee;
+    --color-4: #eee; /*light-bg*/
 }
 
 .dark-theme{
@@ -148,7 +148,7 @@ section{
 .home .content p{
     line-height: 2;
     font-size: 1.5rem;
-    color: var(--color-3);
+    color: var(--light-color);
     padding: 1rem 0;
 }
 
