@@ -63,13 +63,6 @@ section{
     border-bottom: var(--border);
 }
 
-.header.active{
-    background-color: var(--black);
-    color: var(--white);
-    box-shadow: var(--box-shadow);
-    border: 0;
-}
-
 .header .logo{
     font-size: 2rem;
     color: var(--black);

@@ -3,6 +3,9 @@
     html{
         font-size: 55%;
     }
+    .home{
+        height: 600px;
+    }
     .header .link-btn{
         display: none;
     }
@@ -46,6 +49,7 @@
 
     .home{
         background-position: left;
+        height: 530;
     }
 
     .home .content{
@@ -57,7 +61,9 @@
     html{
         font-size: 50%;
     }
-
+    .home{
+        height: 300px;
+    }
     .home .content h3{
         font-size: 3rem;
     }
