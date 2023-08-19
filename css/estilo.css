@@ -172,6 +172,9 @@ section{
 /* .services{
     background-color: var(--light-bg);
 } */
+hr{
+    color: var(--secondary-color);
+}
 
 .services .box-container{
     display: grid;
