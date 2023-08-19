@@ -57,6 +57,16 @@ section{
     background-color: var(--primary-color);
 }
 
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    /* color: var(--secondary-color); */
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 3rem;
+}
+
 .link-btn{
     display: inline-block;
     padding: 1rem 3rem;
@@ -157,4 +167,8 @@ section{
     width: 100%;
 }
 
-/* castanha   */
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
