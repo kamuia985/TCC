@@ -62,7 +62,7 @@ section{
 .heading{
     text-align: center;
     font-size: 4rem;
-    color: var(--secondary-color);
+    color: #fff;
     /* color: var(--black); */
     text-transform: uppercase;
     font-weight: bolder;
