@@ -24,6 +24,6 @@ icon.onclick = function(){
     if(document.body.classList.contains('dark-theme')){
         icon.src = "./images/dark-theme/sun.png";
     }else{
-        icon.src = "./images/dark-theme/.png";
+        icon.src = "./images/dark-theme/moon.png";
     }
 }
