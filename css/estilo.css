@@ -258,7 +258,7 @@ hr{
 /* ---------------------------------------- REVIEWS ---------------------------------------- */
 
 .reviews{
-    background-color: var(--light-bg);
+    background-color: var(--color-4); /*var(--light-bg);*/
 }
 
 .reviews .box-container{
