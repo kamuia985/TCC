@@ -169,9 +169,10 @@ section{
     width: 100%;
 }
 
-/* .services{
-    background-color: var(--light-bg);
-} */
+.services{
+    background-color: var(--color-3);
+}
+
 hr{
     color: var(--secondary-color);
 }
