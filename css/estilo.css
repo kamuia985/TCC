@@ -60,7 +60,7 @@ html{
 
 section{
     padding: 7rem 2rem;
-    background-color: var(--primary-color);
+    background-color: var(--color-3);
 }
 
 .heading{
@@ -204,11 +204,11 @@ hr{
 .services .box-container .box h3{
     font-size: 2rem;
     padding: 1rem 0;
-    color: var(--color-3);
+    color: var(--secondary-color);
 }
 
 .services .box-container .box p{
     font-size: 1.5rem;
-    color: var(--color-3);
+    color: var(--secondary-color);
     line-height: 2;
 }
