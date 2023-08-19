@@ -268,7 +268,7 @@ hr{
 }
 
 .reviews .box-container .box{
-    background-color: var(--white);
+    background-color: var(--primary-color);
     text-align: center;
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
@@ -285,13 +285,13 @@ hr{
     padding: 2rem 0;
     line-height: 2;
     font-size: 1.5rem;
-    color: var(--light-color);
+    color: var(--color-3);
 }
 
 .reviews .box-container .box .stars{
     padding: .5rem 1.5rem;
     border-radius: .5rem;
-    background-color: var(--light-bg);
+    background-color: var(--color-4);
     margin-bottom: 2rem;
     display: inline-block;
 }
