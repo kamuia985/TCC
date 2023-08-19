@@ -207,7 +207,8 @@ hr{
 .services .box-container .box img{
     margin: 1rem 0;
     height: 4rem;
-    /* color: ; */
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .services .box-container .box h3{
