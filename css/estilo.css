@@ -32,6 +32,11 @@
     background-color: var(--blue);
 }
 
+#icon{
+    width: 30px;
+    cursor: pointer;
+}
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
