@@ -254,3 +254,51 @@ hr{
     color: var(--white);
     line-height: 2;
 }
+
+/* ---------------------------------------- REVIEWS ---------------------------------------- */
+
+.reviews{
+    background-color: var(--light-bg);
+}
+
+.reviews .box-container{
+    background-color: var(--blue);
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.reviews .box-container .box{
+    background-color: var(--white);
+    text-align: center;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+}
+
+.reviews .box-container .box img{
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.reviews .box-container .box p{
+    padding: 2rem 0;
+    line-height: 2;
+    font-size: 1.5rem;
+    color: var(--light-color);
+}
+
+.reviews .box-container .box .stars{
+    padding: .5rem 1.5rem;
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    margin-bottom: 2rem;
+    display: inline-block;
+}
+
+.reviews .box-container .box .stars i{
+    font-size: 1.5rem;
+    color: var(--blue);
+}
