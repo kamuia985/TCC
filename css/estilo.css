@@ -229,3 +229,15 @@ hr{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
 }
+
+.process .box-container .box{
+    background-color: var(--blue);
+    padding: 2rem;
+    border-radius: .5rem;
+    text-align: center;
+    box-shadow: var(--box-shadow);
+}
+
+.process .box-container .box img{
+    height: 20rem;
+}
