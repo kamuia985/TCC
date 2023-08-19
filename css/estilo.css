@@ -79,7 +79,7 @@ section{
 
 .header .logo{
     font-size: 2rem;
-    color: var(--black);
+    color: var(--secondary-color);
 }
 
 .header .logo span{
