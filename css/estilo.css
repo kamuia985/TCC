@@ -130,6 +130,10 @@ section{
     padding: 1rem 0;
 }
 
+#about{
+    background-color: var(--primary-color);
+}
+
 .about .row{
     min-width: 50vh;
 }
