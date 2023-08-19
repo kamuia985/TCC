@@ -42,6 +42,10 @@
     background-color: var(--blue);
 }
 
+.video{
+    width: 150px;
+}
+
 #icon{
     width: 30px;
     cursor: pointer;
