@@ -11,11 +11,13 @@
 
     --primary-color: #edf2fc; /*white*/
     --secondary-color: #212121; /*black*/
+    /* --color-3: ; */
 }
 
 .dark-theme{
     --primary-color: #000106;
     --secondary-color: #fff;
+    /* --color-3: ; */
 }
 
 *{
@@ -167,8 +169,19 @@ section{
     width: 100%;
 }
 
+.services{
+    background-color: var(--light-bg);
+}
+
 .services .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2rem;
+}
+
+.services .box-container .box{
+    text-align: center;
+    padding: 2rem;
+    background-color: var(--white);
+    box-shadow: var(--box-shadow);
 }
