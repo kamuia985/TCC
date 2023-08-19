@@ -183,7 +183,7 @@ section{
     text-align: center;
     padding: 2rem;
     background-color: var(--primary-color);
-    box-shadow: var(--box-shadow);
+    box-shadow: 0px 0rem 1rem 0px white;;
     border-radius: .5rem;
 }
 
