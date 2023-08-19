@@ -11,13 +11,13 @@
 
     --primary-color: #edf2fc; /*white*/
     --secondary-color: #212121; /*black*/
-    /* --color-3: ; */
+    --color-3: #666;
 }
 
 .dark-theme{
     --primary-color: #000106;
     --secondary-color: #fff;
-    /* --color-3: ; */
+    --color-3: ;
 }
 
 *{
@@ -62,7 +62,7 @@ section{
 .heading{
     text-align: center;
     font-size: 4rem;
-    /* color: var(--secondary-color); */
+    color: var(--secondary-color);
     color: var(--black);
     text-transform: uppercase;
     font-weight: bolder;
