@@ -63,7 +63,7 @@ section{
     text-align: center;
     font-size: 4rem;
     color: var(--secondary-color);
-    color: var(--black);
+    /* color: var(--black); */
     text-transform: uppercase;
     font-weight: bolder;
     margin-bottom: 3rem;
