@@ -4,20 +4,20 @@
     --blue: #00b8b8;
     --black: #333;
     --white: #fff;
-    --light-color: #666;
+    /* --light-color: #666; */
     --light-bg: #eee;
     --border:.2rem solid rgba(0,0,0,.1);
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 
     --primary-color: #edf2fc; /*white*/
     --secondary-color: #212121; /*black*/
-    --color-3: #666;
+    --color-3: #666; /*light-color*/
 }
 
 .dark-theme{
     --primary-color: #000106;
     --secondary-color: #fff;
-    --color-3: ;
+    --color-3: #2A3152;
 }
 
 *{
