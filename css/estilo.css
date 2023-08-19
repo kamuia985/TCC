@@ -60,7 +60,7 @@ html{
 
 section{
     padding: 7rem 2rem;
-    background-color: var(--color-3);
+    background-color: var(--primary-color);
 }
 
 .heading{
