@@ -73,7 +73,6 @@ section{
     font-size: 4rem;
     /* color: #fff; */
     color: var(--black);
-    background-color: var(--color-3);
     text-transform: uppercase;
     font-weight: bolder;
     margin-bottom: 3rem;
@@ -180,7 +179,7 @@ section{
 }
 
 .services{
-    background-color: var(--light-bg);
+    background-color: var(--color-4);
 }
 
 hr{
