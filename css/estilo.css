@@ -72,7 +72,7 @@ section{
     text-align: center;
     font-size: 4rem;
     /* color: #fff; */
-    color: var(--black);
+    color: var(--secondary-color);
     text-transform: uppercase;
     font-weight: bolder;
     margin-bottom: 3rem;
