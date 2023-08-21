@@ -317,3 +317,23 @@ hr{
 .img2Reviews{
     height: 30%;
 }
+
+/* ---------------------------------------- CONTACT ---------------------------------------- */
+
+.contact form{
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    padding:2rem;
+    margin:0 auto;
+    max-width: 50rem;
+}
+.contact form .box{
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    background-color: var(--white);
+    padding:1.2rem 1.4rem;
+    font-size: 1.7rem;
+    color:var(--black)
+}
