@@ -346,3 +346,50 @@ hr{
     font-size: 1.7rem;
     color: var(--secondary-color);
 }
+
+.footer{
+    background-color: var(--color-4);
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .box{ 
+    text-align: center;
+}
+
+.footer .box-container .box i{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    font-size: 2rem;
+    background-color: var(--blue);
+    color: var(--primary-color);
+}
+
+.footer .box-container .box h3{ 
+    font-size: 2rem;
+    margin:1rem 0;
+    color:var(--secondary-color);
+}
+
+.footer .box-container .box p{
+    font-size: 1.5rem;
+    color:var(--color-3);
+    text-transform: none;
+    line-height: 2;
+}
+
+.footer .credit{
+    text-align: center;
+    border-top: var(--border);
+    padding-top: 2rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color:var(--light-color);
+    padding-bottom: 2rem;
+}
